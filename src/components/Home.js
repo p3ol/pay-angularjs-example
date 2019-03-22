@@ -14,7 +14,7 @@ angular
           </p>
           <ul>
             <li><a ng-href="/article/test">Premium article with default itemID</a></li>
-            <li><a ng-href="{{ '/article/' + $ctrl.articleID }}">Free post</a></li>
+            <li><a ng-href="{{ '/article/' + $ctrl.articleID }}">Premium article with randomly generated itemID</a></li>
           </ul>
         </div>
       </div>
