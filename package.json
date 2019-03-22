@@ -1,0 +1,27 @@
+{
+  "name": "pay-angularjs-example",
+  "version": "1.0.0",
+  "description": "Simple Angular 1 example of how to use Poool Pay SDK",
+  "main": "index.js",
+  "repository": "https://github.com/p3ol/pay-angularjs-example.git",
+  "author": "Ugo Stephant <ugo@poool.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-angularjs-annotate": "^0.10.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-route": "^1.7.8"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --config ./webpack.config.js --hot --inline --open"
+  }
+}
